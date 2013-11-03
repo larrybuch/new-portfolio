@@ -1,7 +1,66 @@
-h2, ul, ul li {
+body{
+  background-color: #ecf0f1;
+  /*background-color: #f39c12;*/
+
+  padding: 30px;
+  line-height: 1.3;
+  font-family: "rooney-sans",sans-serif;
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+div.container{
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+section.header{
+  margin-bottom: 40px;
+}
+
+h2, h3, ul, ul li, ul p {
   display: inline;
 }
 
+p, ul {
+  color: #99a8a9;
+  font-family: "rooney-web",sans-serif;
+}
+
+h2{
+  font-weight: 900;
+}
+
+.currently{
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: .2s all;
+}
+
+a:hover{
+  background-color: #f1c40f;
+  color: white;
+  border-radius: 1px;
+}
+
+/*ul a::after{
+  content: "|";
+  color: #bdc3c7;
+}
+ul a:last-child::after{
+  content: "";
+}*/
 /*Basic type styles*/
 
 span.strike { position: relative; }
